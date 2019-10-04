@@ -48,7 +48,7 @@ class MenuScene: SKScene {
 
   func animate(label: SKLabelNode) {
     let scaleUp = SKAction.scale(to: 1.1, duration: 1.5)
-     let scaleDown = SKAction.scale(to: 1.1, duration: 1.5)
+    let scaleDown = SKAction.scale(to: 0.9, duration: 1.5)
     let sequence = SKAction.sequence([scaleUp, scaleDown])
     label.run(SKAction.repeatForever(sequence))
   }
